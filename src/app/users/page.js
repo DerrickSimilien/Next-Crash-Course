@@ -1,3 +1,9 @@
-export default function Users(){
-    return <h1>This is the Users Page</h1>
+import Navbar from "@/components/Navbar";
+
+export default function UserPage() {
+  return (
+    <>
+      <h1>THIS IS THE USER PAGE</h1>
+    </>
+  );
 }
